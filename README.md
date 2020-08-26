@@ -1,5 +1,7 @@
 # Currency Calculator
 
+[Demo Online](https://adamnt.github.io/currency-calculator)
+
 ## How run
 
 1. Create `.env` from `.env.example`
