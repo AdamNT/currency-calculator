@@ -2,6 +2,7 @@ const path = require(`path`);
 require(`dotenv`).config();
 
 module.exports = {
+  pathPrefix: '/currency-calculator',
   siteMetadata: {
     title: `siteMetadata.title`,
     description: `siteMetadata.description`,
