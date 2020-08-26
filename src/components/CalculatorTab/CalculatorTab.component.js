@@ -41,7 +41,6 @@ const CurrencySelect = ({
   errors,
   touched,
 }) => {
-  console.log(errors[name] && touched[name]);
   return (
     <FormControl fullWidth error={errors[name] && touched[name]}>
       <InputLabel htmlFor={name}>{label}</InputLabel>
