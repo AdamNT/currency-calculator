@@ -1,0 +1,21 @@
+{
+  "siteMetadata.title": "Kalkulator walut",
+  "siteMetadata.description": "Przelicz swoje pieniądze na dowolną inną walutę",
+  "calculator": "Kalkulator",
+  "history": "Historia",
+  "chart": "Wykresy",
+  "convert": "Przelicz",
+  "amount": "Ilość",
+  "currencyHave": "Posiadana waluta",
+  "currencyNeed": "Potrzebna waluta",
+  "select": " -- wybierz opcję -- ",
+  "date": "Data",
+  "rowsPerPage": "Wierszy na stonę: ",
+  "of": "z",
+  "moreThan": "więcej niż",
+  "error.required": "To pole jest wymagane!",
+  "notfound": {
+    "header": "NIE ZNALEZIONO",
+    "description": "Ścieżka, którą szukasz niestety nie istenieje... co za smutek."
+  }
+}
