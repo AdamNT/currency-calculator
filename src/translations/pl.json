@@ -1,17 +1,21 @@
 {
-  "title": "Gatsby Polski",
-  "description": "Kick off your next, great Gatsby project with this default-starter-intl. This barebones starter ships with the main Gatsby configuration files you might need.",
-  "author": "@wiziple",
-  "hello": "Hi people",
-  "welcome": "Welcome to your new Gatsby site.",
-  "title_page2": "Page two",
-  "hello_page2": "Hi from the second page",
-  "go_page2": "Go to page 2",
-  "build": "Now go build something great.",
-  "welcome_page2": "Welcome to page 2",
-  "go_back": "Go back to the homepage",
+  "siteMetadata.title": "Kalkulator walut",
+  "siteMetadata.description": "Przelicz swoje pieniądze na dowolną inną walutę",
+  "calculator": "Kalkulator",
+  "history": "Historia",
+  "chart": "Wykresy",
+  "convert": "Przelicz",
+  "amount": "Ilość",
+  "currencyHave": "Posiadana waluta",
+  "currencyNeed": "Potrzebna waluta",
+  "select": " -- wybierz opcję -- ",
+  "date": "Data",
+  "rowsPerPage": "Wierszy na stonę: ",
+  "of": "z",
+  "moreThan": "więcej niż",
+  "error.required": "To pole jest wymagane!",
   "notfound": {
-    "header": "NOT FOUND",
-    "description": "You just hit a route that doesn't exist... the sadness."
+    "header": "NIE ZNALEZIONO",
+    "description": "Ścieżka, którą szukasz niestety nie istenieje... co za smutek."
   }
 }

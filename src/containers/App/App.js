@@ -4,15 +4,24 @@ import { ThemeProvider } from 'styled-components';
 import PropTypes from 'prop-types';
 
 import configureStore from 'duck/createStore';
-import GlobalStyle from 'assets/styles/GlobalStyle';
 import themes from 'assets/styles/themes';
+import { loadState, saveState } from 'utils/localStorage';
 
-const store = configureStore();
+const persistedState = loadState();
+const store = configureStore(persistedState);
+store.subscribe(() => {
+  saveState({
+    currency: {
+      currencies: store.getState().currency.currencies,
+      countTarget: '',
+      history: store.getState().currency.history,
+    },
+  });
+});
 
 const App = ({ children }) => {
   return (
     <Provider store={store}>
-      <GlobalStyle />
       <ThemeProvider theme={themes.main}>{children}</ThemeProvider>
     </Provider>
   );

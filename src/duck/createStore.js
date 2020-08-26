@@ -1,4 +1,3 @@
-
 import { applyMiddleware, createStore } from 'redux';
 import thunkMiddleware from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
@@ -25,5 +24,4 @@ const configureStore = (preloadedState = {}) => {
   return store;
 };
 
-export default configureStore
-
+export default configureStore;

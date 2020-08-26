@@ -22,20 +22,28 @@
     "storybook:build": "build-storybook"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.10.0",
     "axios": "^0.20.0",
     "babel-plugin-styled-components": "^1.11.1",
     "connected-react-router": "^6.8.0",
+    "formik": "^2.1.5",
+    "formik-material-ui": "^3.0.0-alpha.0",
     "gatsby": "^2.24.47",
     "gatsby-plugin-intl": "^0.3.3",
     "gatsby-plugin-manifest": "^2.4.23",
+    "gatsby-plugin-material-ui": "^2.1.10",
     "gatsby-plugin-offline": "^3.2.23",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-react-redux": "^1.1.0-0",
     "gatsby-plugin-sitemap": "^2.4.11",
     "gatsby-plugin-styled-components": "^3.3.10",
+    "gatsby-theme-material-ui": "^1.0.13",
     "history": "^5.0.0",
     "immer": "^7.0.7",
     "prop-types": "^15.7.2",
+    "query-string": "^6.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
@@ -43,7 +51,8 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "yup": "^0.29.3"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",

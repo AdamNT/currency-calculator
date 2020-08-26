@@ -3,8 +3,8 @@ require(`dotenv`).config();
 
 module.exports = {
   siteMetadata: {
-    title: `Currency Calculator`,
-    description: `Calculate your money to another currency`,
+    title: `siteMetadata.title`,
+    description: `siteMetadata.description`,
     author: `Adam Zawadzki`,
     siteUrl: `https://www.example.com`,
   },
@@ -25,6 +25,29 @@ module.exports = {
     {
       resolve: `@danbruegge/gatsby-plugin-stylelint`,
       options: { files: [`**/*.{js,jsx}`], failOnError: false },
+    },
+    {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
+      },
+    },
+    {
+      resolve: `gatsby-theme-material-ui`,
+      options: {
+        webFontsConfig: {
+          fonts: {
+            google: [
+              {
+                family: `Montserrat`,
+                variants: [`300`, `400`, `500`],
+              },
+            ],
+          },
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-styled-components`,

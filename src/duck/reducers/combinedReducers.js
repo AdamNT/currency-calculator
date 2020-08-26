@@ -1,8 +1,7 @@
 import { combineReducers } from 'redux';
 
-import counterReducer from './counterReducer';
+import currencyReducer from './currencyReducer';
 
 export default combineReducers({
-  // router: connectRouter(history),
-  counter: counterReducer,
+  currency: currencyReducer,
 });
